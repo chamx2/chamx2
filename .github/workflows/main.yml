@@ -46,8 +46,20 @@ jobs:
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
           
-      - uses: lowlighter/metrics@latest
+          
+      - name:  Iso Calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
         with:
-    # ... other options
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year # Display full year instead of half year
+          
+          
+          
+          
+          
+          
+          
+          
+          
+    
