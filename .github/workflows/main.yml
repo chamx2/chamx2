@@ -52,14 +52,10 @@ jobs:
         supports:
           - user
         inputs:
-
-            # Enable or disable plugin
             plugin_isocalendar:
               description: Display an isometric view of your commits calendar
               type: boolean
-              default: no
-
-            # Set time window shown by isometric calendar
+              default: yes
             plugin_isocalendar_duration:
               description: Set time window shown by isometric calendar
               type: string
@@ -67,7 +63,6 @@ jobs:
               values:
                 - half-year
                 - full-year
-          
           
       - name: "🈷️ Most used languages"
         cost: 0 API request
@@ -78,29 +73,10 @@ jobs:
           - organization
           - repository
         inputs:
-
-          # Enable or disable plugin
           plugin_languages:
             description: Display most used languages metrics
             type: boolean
-            default: no
-
-          # List of languages that will be ignored
-          plugin_languages_ignored:
-            description: Languages to ignore
-            type: array
-            format: comma-separated
-            default: ""
-            example: html, css, ...
-
-          # List of repositories that will be skipped
-          plugin_languages_skipped:
-            description: Repositories to skip
-            type: array
-            format: comma-separated
-            default: ""
-            example: my-repo-1, my-repo-2, owner/repo-3 ...
-
+            default: yes
           # Overrides default languages colors
           # Use `${n}:${color}` to change the color of the n-th most used language (e.g. "0:red" to make your most used language red)
           # Use `${language}:${color}` to change the color of named language (e.g. "javascript:red" to make JavaScript language red, language case is ignored)
