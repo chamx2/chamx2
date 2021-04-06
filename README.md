@@ -4,8 +4,7 @@
 - 💞️ I’m looking to collaborate on ...VR and AR Projects
 - 📫 How to reach me ... johnhaysupetran@gmail.com
 
-<!-- If you're using "master" as default branch -->
-![Metrics](https://github.com/chamx2/chamx2/blob/master/github-metrics.svg)
+
 <!-- If you're using "main" as default branch -->
 ![Metrics](https://github.com/chamx2/chamx2/blob/main/github-metrics.svg)
 <!---
