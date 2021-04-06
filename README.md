@@ -7,6 +7,9 @@
 
 <!-- If you're using "main" as default branch -->
 ![Metrics](https://github.com/chamx2/chamx2/blob/main/github-metrics.svg)
+
+![Metrics](https://metrics.lecoq.io/chamx2)
+
 <!---
 chamx2/chamx2 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
