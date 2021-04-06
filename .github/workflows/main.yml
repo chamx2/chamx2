@@ -31,13 +31,6 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: mastered
-          config_order: base.header, isocalendar, languages, topics
-          plugin_isocalendar_duration: full-year # Display full year instead of half year
-          plugin_languages_ignored: html, css                          # List of languages to ignore
-          plugin_languages_skipped: my-test-repo                       # List of repositories to skip
-          plugin_languages_colors: "0:orange, javascript:#ff0000, ..." # Make most used languages orange and JavaScript red
-          plugin_languages_details: bytes-size, percentage             # Additionally display total bytes size and percentage
-          plugin_languages_threshold: 2%                               # Hides all languages less than 2%
 
       - name: 🦑 Personal metrics (anilist)
         if: ${{ success() || failure() }}
@@ -51,7 +44,29 @@ jobs:
           plugin_anilist_sections: favorites, characters
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
+          
+      - name: "📅 Isometric commit calendar"
+        cost: 2-3 REST requests
+        categorie: github
+        index: 0
+        supports:
+          - user
+        inputs:
 
+            # Enable or disable plugin
+            plugin_isocalendar:
+              description: Display an isometric view of your commits calendar
+              type: boolean
+              default: no
+
+            # Set time window shown by isometric calendar
+            plugin_isocalendar_duration:
+              description: Set time window shown by isometric calendar
+              type: string
+              default: half-year
+              values:
+                - half-year
+                - full-year
           
           
           
