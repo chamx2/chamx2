@@ -2,7 +2,7 @@
 
 
 <!-- If you're using "main" as default branch -->
-![Metrics](https://metrics.lecoq.io/chamx2?template=classic&isocalendar=1&languages=1&achievements=1&tweets=1&lines=1&isocalendar.duration=half-year&languages.colors=github&languages.threshold=0%25&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&tweets.attachments=false&tweets.limit=2&tweets.user=.user.twitter&config.timezone=Asia%2FShanghai)
+![Metrics](https://metrics.lecoq.io/chamx2?template=classic&isocalendar=1&languages=1&stars=1&lines=1&achievements=1&activity=1&isocalendar.duration=half-year&languages.colors=github&languages.threshold=0%25&stars.limit=4&activity.limit=5&activity.days=14&activity.filter=all&activity.visibility=all&activity.timestamps=false&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&config.timezone=Asia%2FShanghai)
 
 - 👋 Hi, I’m @chamx2
 - 👀 I’m interested in ...Any emerging technology
