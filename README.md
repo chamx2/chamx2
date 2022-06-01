@@ -2,8 +2,7 @@
 
 
 <!-- If you're using "main" as default branch -->
-- name: Metrics embed
-  uses: lowlighter/metrics@v3.23
+<img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
 
 
 - 👋 Hi, I’m @chamx2
